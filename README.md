@@ -1,11 +1,11 @@
 # Map Reduce Implementation
 
 ## Task 1
-Write Map Reduce program to compute following from the file:\
+Write Map Reduce program to compute following from the employee.csv file:\
 `SELECT eno, name, gender from employee where salary > 30000;`
 
 ## Task 2
-Considering same above, write map reduce program to compute following from the file:\ 
+Considering same above, write map reduce program to compute following from the employee.csvfile:\ 
 `SELECT dno, min(salary), avg(salary), max(salary) from employee group by dno;`
 
 ## Task 3
@@ -15,4 +15,4 @@ Create another Map Reduce program that reads from web access log file, and outpu
 It should output: <Year-Month, Number of Requests, Download Size> for every months like Dec-2016, Jan-2017, and so!
 
 ## Task 4
-Create another Map Reduce program that lists Timestamp, URL for which http response status has been 404. 
+Create another Map Reduce program that lists Timestamp, URL for which http response status has been 404 from the web access log file

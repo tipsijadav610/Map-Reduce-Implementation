@@ -5,7 +5,7 @@ Write Map Reduce program to compute following from the employee.csv file:\
 `SELECT eno, name, gender from employee where salary > 30000;`
 
 ## Task 2
-Considering same above, write map reduce program to compute following from the employee.csvfile:\ 
+Considering same above, write map reduce program to compute following from the employee.csvfile:\
 `SELECT dno, min(salary), avg(salary), max(salary) from employee group by dno;`
 
 ## Task 3

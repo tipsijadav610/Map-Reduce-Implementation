@@ -11,9 +11,8 @@ Considering same above, write map reduce program to compute following from the f
 ## Task 3
 Create another Map Reduce program that reads from web access log file, and outputs following summaries on Monthly Basis –\
 * Total number of requests.\
-* Total downloaded size\
+* Total downloaded size
 It should output: <Year-Month, Number of Requests, Download Size> for every months like Dec-2016, Jan-2017, and so!
 
 ## Task 4
-Write Map Reduce program to compute following from the file:\
-`SELECT eno, name, gender from employee where salary > 30000;`
+Create another Map Reduce program that lists Timestamp, URL for which http response status has been 404. 

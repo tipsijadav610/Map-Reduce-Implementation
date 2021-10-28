@@ -12,6 +12,7 @@ Considering same above, write map reduce program to compute following from the e
 Create another Map Reduce program that reads from web access log file, and outputs following summaries on Monthly Basis –\
   a. Total number of requests.\
   b. Total downloaded size.\
+  
 It should output: <Year-Month, Number of Requests, Download Size> for every months like Dec-2016, Jan-2017, and so!
 
 ## Task 4
